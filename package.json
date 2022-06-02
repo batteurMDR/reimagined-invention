@@ -1,0 +1,34 @@
+{
+  "name": "registre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./bin/index.js",
+  "scripts": {
+    "start": "npm run build && node ./bin/index.js",
+    "build": "tsc"
+  },
+  "bin": "bin/index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cli-table": "^0.3.0",
+    "@types/figlet": "^1.5.4",
+    "@types/inquirer": "^8.2.1",
+    "chalk": "^4.1.2",
+    "chalk-table": "^1.0.2",
+    "cli-table": "^0.3.11",
+    "commander": "^9.2.0",
+    "figlet": "^1.5.2",
+    "inquirer": "^8.2.4",
+    "lowdb": "^3.0.0",
+    "lowdb-node": "^3.0.2",
+    "moment": "^2.29.3",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.32",
+    "@types/uuid": "^8.3.4"
+  }
+}
